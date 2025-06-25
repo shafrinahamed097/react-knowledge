@@ -6,7 +6,7 @@
     "author": "alex johnson",
     "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
     "posted_date": "2025-06-20",
-    "reading_time": "6 min read",
+    "reading_time": 6,
     "hashtags": ["#coding", "#productivity", "#developer"]
   },
   {
@@ -16,7 +16,7 @@
     "author": "maria gomez",
     "author_img": "https://randomuser.me/api/portraits/women/45.jpg",
     "posted_date": "2025-06-18",
-    "reading_time": "4 min read",
+    "reading_time": 4,
     "hashtags": ["#tailwindcss", "#frontend", "#webdev"]
   },
   {
@@ -26,7 +26,7 @@
     "author": "david lee",
     "author_img": "https://randomuser.me/api/portraits/men/85.jpg",
     "posted_date": "2025-06-15",
-    "reading_time": "8 min read",
+    "reading_time": 8,
     "hashtags": ["#react", "#javascript", "#frontend"]
   },
   {
@@ -36,7 +36,7 @@
     "author": "sara ali",
     "author_img": "https://randomuser.me/api/portraits/women/30.jpg",
     "posted_date": "2025-06-10",
-    "reading_time": "10 min read",
+    "reading_time": 10,
     "hashtags": ["#laravel", "#django", "#backend"]
   },
   {
@@ -46,7 +46,7 @@
     "author": "john carter",
     "author_img": "https://randomuser.me/api/portraits/men/12.jpg",
     "posted_date": "2025-06-05",
-    "reading_time": "7 min read",
+    "reading_time": 7,
     "hashtags": ["#mern", "#fullstack", "#mongodb", "#nodejs"]
   }
 ]
