@@ -29,4 +29,8 @@ const Blogs = ({handleAddToBookmark}) =>{
     );
 };
 
+Blogs.propTypes = {
+  handleAddToBookmark:PropTypes.func
+}
+
 export default Blogs;
