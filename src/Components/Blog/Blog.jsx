@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import { FcBookmark } from "react-icons/fc";
 
-const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
+const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead,}) => {
   const {
-    title, cover, reading_time, author, author_img, posted_date, hashtags, } = blog;
+    title, cover, reading_time, author, author_img, posted_date, hashtags, id } = blog;
 
   return (
     <div className='mb-20 space-y-4'>
@@ -43,7 +43,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
           </span>
         ))}
       </p>
-      <button onClick={() =>handleMarkAsRead(reading_time)} className='underline text-purple-800 font-bold'>Mark As Read</button>
+      <button onClick={() =>handleMarkAsRead(id, reading_time)} className='underline text-purple-800 font-bold'>Mark As Read</button>
     </div>
   );
 };
